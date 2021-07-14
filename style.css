@@ -235,6 +235,9 @@ footer section start
 /* design for mobile */
 
 @media only screen and (max-width:870px) {
+    .navbar {
+        display: none;
+    }
     .main-container,
     .player {
         height: 100%;
@@ -264,8 +267,5 @@ footer section start
         display: block;
         margin: 0 auto;
         margin-bottom: 20px;
-    }
-    .navbar {
-        display: none;
     }
 }
